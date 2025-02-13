@@ -1,0 +1,582 @@
+.backgroundHome {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/326598.jpg");
+    background-size: cover;
+}
+
+.principalMenu {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: var(--secondFont);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.link {
+    all: unset;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding-right: 1050px;
+    margin-top: 15px;
+    gap: 15px;
+    font-family: var(--thirdFont);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.h1PrincipalText {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: var(--thirdFont);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color1);
+}
+
+.h3PrincipalText {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: var(--primaryFont);
+    font-weight: 300;
+    color: var(--color1);
+}
+
+.quemSomos {
+    margin-left: 130px;
+    padding-right: 120px;
+}
+
+.aboutUs {
+    width: 100vw;
+    height: 100vh;
+    background-color: #035158;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-right: 100px;
+    color: var(--color1);
+}
+
+.h1SobreNos {
+    padding-left: 70px;
+    padding-top: 90px;
+    font-family: var(--thirdFont);
+    font-size: 400;
+    font-style: italic;
+}
+
+.h3SobreNos {
+    font-family: var(--primaryFont);
+    padding-left: 70px;
+    font-size: 400;
+    font-style: normal;
+    margin-top: 100px;
+}
+
+.h3SobreNosPart2 {
+    font-family: var(--primaryFont);
+    padding-left: 70px;
+    font-size: 400;
+    font-style: normal;
+    margin-top: 20px;
+
+
+}
+
+.aboutUsPhoto {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 160px;
+    margin-top: 75px;
+}
+
+
+.ourServices {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 15px;
+    background-color: #035158;
+    color: white;
+}
+
+.principalTextServicesDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 700px;
+}
+
+.principalTextServices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: var(--thirdFont);
+    color: var(--color1);
+    /* color: #035158; */
+}
+
+.footSpa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.footSpaPhoto {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.principalTextFootSpa {
+    display: flex;
+    justify-content: center;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+}
+
+.introductoryTextFootSpa {
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondFont);
+    font-weight: 300;
+}
+
+.buttonFootSpa {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--color1);
+    color: #035158;
+    border-radius: 5px;
+    font-family: var(--secondFont);
+}
+
+.skinCleaning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.skinCleaningPhoto {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.h2SkinCleaning {
+    display: flex;
+    justify-content: center;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+}
+
+.h3SkinCleaning {
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondFont);
+    font-weight: 300;
+}
+
+.buttonSkinCleaning {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--color1);
+    color: #035158;
+    border-radius: 5px;
+    font-family: var(--secondFont);
+}
+
+.relaxingMassage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.massagePhoto {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.h2relaxingMassage {
+    display: flex;
+    justify-content: center;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+}
+
+.h3relaxingMassage {
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondFont);
+    font-weight: 300;
+}
+
+.buttonRelaxingMassage {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--color1);
+    color: #035158;
+    border-radius: 5px;
+    font-family: var(--secondFont);
+}
+
+.service4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.service4Photo {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.h2Service4 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+}
+
+.h3Service4 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondFont);
+    font-weight: 300;
+}
+
+.buttonPindasMassage {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--color1);
+    color: #035158;
+    border-radius: 5px;
+    font-family: var(--secondFont);
+}
+
+.previousButton {
+    all: unset;
+    display: flex;
+    padding-top: 280px;
+    cursor: pointer;
+}
+
+.buttonNext {
+    all: unset;
+    display: flex;
+    padding-top: 270px;
+    cursor: pointer;
+}
+
+.contactUs {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #035158;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactInfo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+    height: 550px;
+    background-color: Honeydew;
+    margin-bottom: 100px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactPhone {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactNumber {
+    display: flex;
+    margin-left: 70px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactLocation {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactAdress {
+    display: flex;
+    margin-left: 70px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactClock {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactHour {
+    display: flex;
+    margin-left: 70px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactEmail {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    gap: 10px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.contactEmailAdress {
+    display: flex;
+    margin-left: 70px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.textSocials {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.socials {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.boxInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    gap: 20px;
+    flex-direction: column;
+    background-color: lightgray;
+    font-family: "Nunito", serif;
+
+}
+
+.boxInfoName {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+
+}
+
+.boxInfoTelephone {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+}
+
+.boxInfoEmail {
+    all: unset;
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+}
+
+.boxInfoMessage {
+    all: unset;
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border: none;
+    font-family: "Nunito", serif;
+    color: #3F3F55;
+}
+
+.buttonBoxInfo {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    height: 44px;
+    background-color: #035158;
+    border-radius: 50px;
+    font-family: "Nunito", serif;
+    color: white;
+
+}
+
+.testimonalCustomers {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--secondFont);
+    font-weight: 300;
+    padding-top: 50px;
+    margin-right: 50px;
+    background-color: #035158;
+}
+
+.principalTextTCustomers {
+    font-family: var(--thirdFont);
+    font-style: italic;
+    color: var(--color1);
+}
+
+.customer {
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
+    border-radius: 10px;
+    font-style: italic;
+    background-color: var(--color1);
+    color: #035158;
+}
+
+.imgCustomer {
+    display: flex;
+    width: 135px;
+    height: 125px;
+    margin-left: 190px;
+    border-radius: 80%;
+
+}
+
+.textCustomer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 7.5px;
+    font-size: small;
+}
+
+.customerInfo {
+    display: flex;
+    font-style: normal;
+    font-size: medium;
+    padding-top: 10px;
+    padding-left: 50px;
+}
