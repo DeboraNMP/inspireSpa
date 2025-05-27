@@ -6,20 +6,19 @@
 }
 
 .principalMenu {
-    color: white;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    color: white;
     font-family: var(--secondFont);
     font-weight: 300;
     font-style: normal;
 }
 
-.links {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
 
 .link {
     all: unset;
@@ -27,16 +26,15 @@
     margin-top: 15px;
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
+.logo1 {
+    padding-right: 700px;
+}
+
+.logoInspire {
     display: flex;
-    padding-right: 1050px;
+    width: 220px;
+    height: 100px;
     margin-top: 15px;
-    gap: 15px;
-    font-family: var(--thirdFont);
-    font-weight: 300;
-    font-style: normal;
 }
 
 .img {
@@ -82,9 +80,9 @@
 
 .h1SobreNos {
     padding-left: 70px;
-    padding-top: 90px;
+    padding-top: 30px;
     font-family: var(--thirdFont);
-    font-size: 400;
+    font-size: 300;
     font-style: italic;
 }
 
@@ -102,8 +100,6 @@
     font-size: 400;
     font-style: normal;
     margin-top: 20px;
-
-
 }
 
 .aboutUsPhoto {
@@ -114,40 +110,29 @@
     margin-top: 75px;
 }
 
-
 .ourServices {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 50px;
-    gap: 15px;
+    padding-left: 20px;
+    padding-bottom: 100px;
     background-color: #035158;
     color: white;
 }
 
-.principalTextServicesDiv {
+.servicesText {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding-bottom: 700px;
-}
-
-.principalTextServices {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    height: auto;
+    color: #035158;
     font-family: var(--thirdFont);
-    color: var(--color1);
-    /* color: #035158; */
+    font-weight: 400;
+    font-style: italic;
 }
 
-.footSpa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
+
 
 .footSpaPhoto {
     width: 350px;
@@ -172,28 +157,6 @@
     font-weight: 300;
 }
 
-.buttonFootSpa {
-    all: unset;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    background-color: var(--color1);
-    color: #035158;
-    border-radius: 5px;
-    font-family: var(--secondFont);
-}
-
-.skinCleaning {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
-
 .skinCleaningPhoto {
     width: 350px;
     height: 250px;
@@ -210,36 +173,14 @@
     font-weight: 400;
 }
 
-.h3SkinCleaning {
+.h4SkinCleaning {
     display: flex;
     justify-content: center;
     font-family: var(--secondFont);
     font-weight: 300;
 }
 
-.buttonSkinCleaning {
-    all: unset;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    background-color: var(--color1);
-    color: #035158;
-    border-radius: 5px;
-    font-family: var(--secondFont);
-}
-
-.relaxingMassage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
-
-.massagePhoto {
+.hotStoneMassagePhoto {
     width: 350px;
     height: 250px;
     display: flex;
@@ -248,43 +189,21 @@
     border-radius: 10px;
 }
 
-.h2relaxingMassage {
+.h2hotStoneMassagePhoto {
     display: flex;
     justify-content: center;
     font-family: var(--thirdFont);
     font-weight: 400;
 }
 
-.h3relaxingMassage {
+.h3hotStoneMassagePhoto {
     display: flex;
     justify-content: center;
     font-family: var(--secondFont);
     font-weight: 300;
 }
 
-.buttonRelaxingMassage {
-    all: unset;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    background-color: var(--color1);
-    color: #035158;
-    border-radius: 5px;
-    font-family: var(--secondFont);
-}
-
-.service4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
-
-.service4Photo {
+.pindasMassagePhoto {
     width: 350px;
     height: 250px;
     display: flex;
@@ -293,46 +212,18 @@
     border-radius: 10px;
 }
 
-.h2Service4 {
+.h2pindasMassage {
     display: flex;
     justify-content: center;
     font-family: var(--thirdFont);
     font-weight: 400;
 }
 
-.h3Service4 {
+.h3pindasMassage {
     display: flex;
     justify-content: center;
     font-family: var(--secondFont);
     font-weight: 300;
-}
-
-.buttonPindasMassage {
-    all: unset;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    background-color: var(--color1);
-    color: #035158;
-    border-radius: 5px;
-    font-family: var(--secondFont);
-}
-
-.previousButton {
-    all: unset;
-    display: flex;
-    padding-top: 280px;
-    cursor: pointer;
-}
-
-.buttonNext {
-    all: unset;
-    display: flex;
-    padding-top: 270px;
-    cursor: pointer;
 }
 
 .contactUs {
@@ -342,7 +233,6 @@
     background-color: #035158;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactInfo {
@@ -356,7 +246,6 @@
     margin-bottom: 100px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactPhone {
@@ -369,7 +258,6 @@
     gap: 10px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactNumber {
@@ -377,7 +265,6 @@
     margin-left: 70px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactLocation {
@@ -390,7 +277,6 @@
     gap: 10px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactAdress {
@@ -398,7 +284,6 @@
     margin-left: 70px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactClock {
@@ -411,7 +296,6 @@
     gap: 10px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactHour {
@@ -419,7 +303,6 @@
     margin-left: 70px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactEmail {
@@ -432,7 +315,6 @@
     gap: 10px;
     font-family: "Nunito", serif;
     color: #3F3F55;
-
 }
 
 .contactEmailAdress {
@@ -470,7 +352,6 @@
     flex-direction: column;
     background-color: lightgray;
     font-family: "Nunito", serif;
-
 }
 
 .boxInfoName {
@@ -527,56 +408,4 @@
     font-family: "Nunito", serif;
     color: white;
 
-}
-
-.testimonalCustomers {
-    width: 100vw;
-    height: 100vh;
-    font-family: var(--secondFont);
-    font-weight: 300;
-    padding-top: 50px;
-    margin-right: 50px;
-    background-color: #035158;
-}
-
-.principalTextTCustomers {
-    font-family: var(--thirdFont);
-    font-style: italic;
-    color: var(--color1);
-}
-
-.customer {
-    width: 250px;
-    height: 250px;
-    margin-left: 150px;
-    border-radius: 10px;
-    font-style: italic;
-    background-color: var(--color1);
-    color: #035158;
-}
-
-.imgCustomer {
-    display: flex;
-    width: 135px;
-    height: 125px;
-    margin-left: 190px;
-    border-radius: 80%;
-
-}
-
-.textCustomer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    padding-left: 7.5px;
-    font-size: small;
-}
-
-.customerInfo {
-    display: flex;
-    font-style: normal;
-    font-size: medium;
-    padding-top: 10px;
-    padding-left: 50px;
 }

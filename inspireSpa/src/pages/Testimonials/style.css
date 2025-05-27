@@ -1,0 +1,79 @@
+.testimonalCustomers {
+    display: block;
+    width: 100vw;
+    height: auto;
+    font-family: var(--secondFont);
+    background-color: #035158;
+    padding-bottom: 50px;
+}
+
+.customers {
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+
+.customer {
+    /* display: flex; */
+    /* justify-content: space-between;
+    flex-direction: row; */
+    width: 400px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-style: italic;
+    background-color: var(--color1);
+}
+
+.stars {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.textCustomer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 7.5px;
+    font-size: small;
+}
+
+.imgCustomer {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    border-radius: 50%;
+
+}
+
+.customerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-size: medium;
+    padding-top: 10px;
+
+}
+
+.aspas {
+    display: flex;
+    margin-left: 300px;
+}
+
+/* .clientInf {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} */
+
+
+
+/* .clientsData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+} */
