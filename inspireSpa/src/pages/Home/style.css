@@ -7,7 +7,9 @@
 
 .principalMenu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .links {
@@ -17,6 +19,7 @@
     font-family: var(--secondFont);
     font-weight: 300;
     font-style: normal;
+
 }
 
 
@@ -24,6 +27,7 @@
     all: unset;
     cursor: pointer;
     margin-top: 15px;
+
 }
 
 .logo1 {
@@ -31,10 +35,11 @@
 }
 
 .logoInspire {
-    display: flex;
     width: 220px;
     height: 100px;
     margin-top: 15px;
+    box-shadow: 10px 15px 20px black;
+
 }
 
 .img {
@@ -70,7 +75,7 @@
 .aboutUs {
     width: 100vw;
     height: 100vh;
-    background-color: #035158;
+    background-color: #505c45;
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
@@ -102,23 +107,35 @@
     margin-top: 20px;
 }
 
+.photo {
+    display: flex;
+    width: 500px;
+    height: 650px;
+    background-color: #C1A370;
+    margin-right: 120px;
+    box-shadow: 10px 15px 20px black;
+}
+
 .aboutUsPhoto {
     width: 400px;
     height: 600px;
-    border-radius: 20px;
-    margin-right: 160px;
-    margin-top: 75px;
+    /* border-radius: 20px; */
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 23px;
+
 }
 
 .ourServices {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
     padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 100px;
-    background-color: #035158;
-    color: white;
+    background-color: #667558;
+    color: #E6D3B3;
 }
 
 .servicesText {
@@ -132,7 +149,40 @@
     font-style: italic;
 }
 
+.titleServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fourthFont);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
+.subtitleServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fourthFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.buttonServices {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    color: #667558;
+    background-color: #E6D3B3;
+    margin-left: 200px;
+}
 
 .footSpaPhoto {
     width: 350px;
@@ -158,12 +208,11 @@
 }
 
 .skinCleaningPhoto {
-    width: 350px;
-    height: 250px;
+    width: 550px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
 }
 
 .h2SkinCleaning {
@@ -204,12 +253,12 @@
 }
 
 .pindasMassagePhoto {
-    width: 350px;
-    height: 250px;
+    width: 550px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+
 }
 
 .h2pindasMassage {
@@ -268,6 +317,7 @@
 }
 
 .contactLocation {
+    all: unset;
     display: flex;
     align-items: left;
     justify-content: left;
@@ -408,4 +458,8 @@
     font-family: "Nunito", serif;
     color: white;
 
+}
+
+.buttonsSocials {
+    all: unset;
 }

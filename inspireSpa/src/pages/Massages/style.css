@@ -1,0 +1,80 @@
+.backgroundMassages {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logoInspiree {
+    width: 220px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.linkRetorno {
+    color: #000;
+}
+
+.relaxingMassage {
+
+    align-items: center;
+    justify-content: center;
+    color: #505C45;
+    color: #000;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.titleMassage {
+    font-family: var(--fourthFont);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.line {
+    margin-bottom: 30px;
+}
+
+.subtitleMassage {
+    width: 550px;
+    height: 100px;
+    margin-bottom: 15px;
+    font-family: var(--fourthFont);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.benefits {
+    font-family: var(--fourthFont);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.buttonMassage {
+    all: unset;
+    cursor: pointer;
+    width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fourthFont);
+    margin-top: 20px;
+    color: white;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.hotStoneMassage {
+    background-color: #505C45;
+    color: bisque;
+    margin-top: 50px;
+}
+
+.holisticMassage {
+    background-color: #505C45;
+    color: bisque;
+    margin-top: 50px;
+}

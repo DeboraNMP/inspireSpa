@@ -1,0 +1,35 @@
+.whatsBtt {
+    all: unset;
+    display: flex;
+    width: 280px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #25D366;
+    box-shadow: 10px 15px 20px black;
+}
+
+.logoWhats {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.btt {
+    all: unset;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: var(--secondFont);
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    margin-top: 22px;
+    margin-left: 15px;
+
+}
+
+.linkButtonWhatsapp {
+    all: unset;
+}

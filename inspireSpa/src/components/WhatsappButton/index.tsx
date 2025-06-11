@@ -1,17 +1,14 @@
-import {
-
-    WhatsappLogo
-
-} from "@phosphor-icons/react"
-
-
+import "./style.css"
+import { WhatsappLogo } from "@phosphor-icons/react"
 
 export const WhatsappButton = () => {
 
     return (
-        <div className="whatsBtt">
-            <button> <WhatsappLogo size={30} color="#035158" weight="regular" /></button>
-            {/* href="https://wa.link/s32hd5"  */}
-        </div>
+        <button className="whatsBtt"  > <a className="linkButtonWhatsapp" href="https://wa.link/phle4n">
+            <WhatsappLogo className="logoWhats" size={50} color="#ECE5DD" weight="regular" />
+
+        </a>
+            <a href="https://wa.link/phle4n" className="btt">Agende seu horário </a>
+        </button>
     )
 }
