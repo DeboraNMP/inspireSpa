@@ -1,7 +1,8 @@
 .backgroundMassages {
     width: 100vw;
-    height: 100vh;
-
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-bottom: 50px;
 }
 
 .logoInspiree {
@@ -11,25 +12,34 @@
 }
 
 .linkRetorno {
+    all: unset;
+    margin-top: 40px;
+    font-family: var(--thirdFont);
+    font-weight: 200;
+    font-style: normal;
     color: #000;
 }
 
-.relaxingMassage {
+.firstLine,
+.secondLine,
+.thirdLine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 
+.service {
     align-items: center;
     justify-content: center;
-    color: #505C45;
-    color: #000;
     margin-top: 50px;
-    margin-left: 50px;
-
 }
 
 .titleMassage {
-    font-family: var(--fourthFont);
+    font-family: var(--thirdFont);
     font-size: 30px;
-    font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5;
 }
 
@@ -38,43 +48,62 @@
 }
 
 .subtitleMassage {
-    width: 550px;
-    height: 100px;
-    margin-bottom: 15px;
-    font-family: var(--fourthFont);
-    font-weight: 400;
+    max-width: 500px;
+    font-family: var(--thirdFont);
+    font-weight: 300;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .benefits {
-    font-family: var(--fourthFont);
-    font-weight: 400;
+    font-family: var(--thirdFont);
+    font-weight: 300;
     line-height: 1.5;
 }
 
 .buttonMassage {
     all: unset;
     cursor: pointer;
-    width: 150px;
+    width: 180px;
     height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--fourthFont);
+    font-family: var(--thirdFont);
+    font-size: 16px;
     margin-top: 20px;
     color: white;
     background-color: #000;
     border-radius: 50px;
+    transition: background-color 0.3s ease;
 }
 
-.hotStoneMassage {
+.buttonMassage:hover {
     background-color: #505C45;
-    color: bisque;
-    margin-top: 50px;
 }
 
-.holisticMassage {
-    background-color: #505C45;
-    color: bisque;
-    margin-top: 50px;
+@media (max-width: 768px) {
+    .service {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .subtitleMassage,
+    .titleMassage {
+        max-width: 100%;
+        width: auto;
+        font-size: 18px;
+    }
+
+    .logoInspiree {
+        width: 150px;
+        height: auto;
+    }
+
+    .firstLine,
+    .secondLine,
+    .thirdLine {
+        flex-direction: column;
+        align-items: center;
+    }
 }

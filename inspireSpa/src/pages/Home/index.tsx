@@ -1,8 +1,6 @@
 import "./style.css"
 import aboutUsPhoto from "../../assets/aboutUsPhoto.jpeg"
-import footSpa from "../../assets/footSpa1.jpg"
 import skinCleaning from "../../assets/tratamentocorporal.jpg"
-import hotStoneMassage from "../../assets/326598.jpg"
 import pindasMassage from "../../assets/massageWithPindas.jpg"
 import bodyCare from "../../assets/bodyCare.jpg"
 import emailjs from '@emailjs/browser';
@@ -25,7 +23,7 @@ import { useState } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import logo from '../../assets/LOGO - INSPIRE SPA - MINIMALISTA 5 .png'
+import logo from '../../assets/inspireSpaLogo.png'
 import { Link } from "react-router-dom"
 import { WhatsappButton } from "../../components/WhatsappButton"
 
@@ -89,9 +87,6 @@ export const Home = () => {
 
     };
 
-
-
-
     return (
         <div>
             <div id="home" className="backgroundHome">
@@ -102,11 +97,11 @@ export const Home = () => {
                         <img className="logoInspire" src={logo} alt="Logo Inspire SPA" />
                     </div>
                     <div className="links" >
-                        <a className="link" href="#home">Início</a>
-                        <a className="link" href="#aboutUs">Sobre nós</a>
-                        <a className="link" href="#services">Serviços</a>
-                        <a className="link" href={'/testimonials'}>Depoimentos</a>
-                        <a className="link" href="#appointments">Agende seu horário</a>
+                        <a className="link" href="#home">INÍCIO</a>
+                        <a className="link" href="#aboutUs">SOBRE NÓS</a>
+                        <a className="link" href="#services">SERVIÇOS</a>
+                        <a className="link" href={'/testimonials'}>DEPOIMENTOS</a>
+                        <a className="link" href="#appointments">AGENDE SEU HORÁRIO</a>
                     </div>
 
                 </div>
@@ -127,62 +122,58 @@ export const Home = () => {
             </div >
 
             <div id="aboutUs" className="aboutUs">
-                <div className="quemSomos">
-                    <h1 className="h1SobreNos">Quem somos?</h1>
-                    <h3 className="h3SobreNos">
+                <div className="whoWeAre">
+                    <h1 className="titleAboutUs">O QUE NOS INSPIRA?</h1>
 
-                        <h3 className="h3SobreNosPart2">
-                            Elidelsa Araújo Lima – Esteticista e Terapeuta naturalista
-                            Sou Elidelsa Araújo Lima, mais conhecida como Deusa, Delsa ou Eli. Desde 1999, quando iniciei meu primeiro curso de cabeleireira no SENAC de Teresina (PI), descobri minha vocação: cuidar de pessoas. Com o tempo, aprofundei meus conhecimentos em estética e bem-estar, realizando cursos em corte, colorimetria, manicure, pedicure, depilação e banho de beleza.
+                    <h3 className="subtitleAboutUs">
+                        Sou Elidelsa Araújo Lima, mais conhecida como Deusa, Delsa ou Eli. Desde 1999, quando iniciei meu primeiro curso de cabeleireira, descobri minha verdadeira vocação: cuidar de pessoas.
 
-                            A experiência no atendimento ao público me mostrou que meu trabalho ia além da aparência — ele tocava emoções, restaurava autoestima e oferecia acolhimento. Em 2007, guiada pelo desejo de cuidar de forma ainda mais ampla, formei-me técnica em enfermagem, com foco na área de emergência hospitalar, onde aprimorei meu olhar clínico e minha escuta sensível.
+                        Com o tempo, aprofundei meus conhecimentos na área da estética e do bem-estar, realizando cursos em corte, colorimetria, manicure, pedicure, depilação e banho de beleza.
 
-                            Foi então que a massoterapia entrou definitivamente na minha vida. Após um curso profissionalizante, percebi o poder que o toque humano pode ter na vida das pessoas — seja no alívio da dor física, no controle do estresse ou no acolhimento emocional. A partir daí, entendi que meu propósito é promover saúde, beleza e bem-estar de forma integrada.
+                        A experiência com o atendimento ao público logo me mostrou que meu trabalho ia muito além da aparência: ele tocava emoções, restaurava a autoestima e oferecia acolhimento.
 
-                            Atualmente, atuo como esteticista e massoterapeuta, unindo conhecimento técnico, experiência clínica e sensibilidade humana. Realizo atendimentos personalizados, com foco na saúde da pele, relaxamento corporal, equilíbrio energético e autoestima.
+                        Em 2007, guiada pelo desejo de cuidar de forma ainda mais completa, formei-me como técnica em enfermagem, com foco na área de emergência hospitalar. Essa experiência aprimorou meu olhar clínico e minha escuta sensível.
 
-                            Em 2022, iniciei minha graduação para aprofundar e atualizar meus conhecimentos em estética e terapias integrativas. Sigo em constante aperfeiçoamento, buscando oferecer sempre um atendimento de excelência, com ética, empatia e amor pelo que faço.
+                        Foi então que a massoterapia entrou definitivamente na minha vida. Após um curso profissionalizante, percebi o poder que o toque humano pode ter — seja no alívio da dor física, no controle do estresse ou no cuidado emocional. A partir desse momento, entendi que meu propósito é promover saúde, beleza e bem-estar de forma integrada.
 
-                            Minha missão é cuidar do outro — com técnica, com toque e com o coração.
-                        </h3>
+                        Atualmente, atuo como esteticista e terapeuta naturalista, unindo conhecimento técnico, experiência clínica e sensibilidade humana. Realizo atendimentos personalizados, com foco na saúde da pele, relaxamento corporal, equilíbrio energético e fortalecimento da autoestima.
+
+                        Em 2022, iniciei minha graduação na SEM — uma renomada escola de estética em Torino, Itália — para aprofundar e atualizar meus conhecimentos em estética e terapias integrativas.
+
+                        Sigo em constante aperfeiçoamento, buscando sempre oferecer um atendimento de excelência, com ética, empatia e amor pelo que faço.
+
+                        Minha missão é cuidar do outro com técnica, com toque e com o coração.
                     </h3>
 
-                    <h3 className="h3SobreNosPart2">
-
-                    </h3>
-                    <h3 className="h3SobreNosPart2">
-
-                    </h3>
                 </div>
 
                 <div className="photo">
-                    <img className="aboutUsPhoto" src={aboutUsPhoto} alt="Foto da profissional responsável." />
+                    <img className="aboutUsPhoto" src={aboutUsPhoto} alt="Foto da profissional responsável (Deusa)" />
                 </div>
 
             </div>
 
-
-            <h2 id="services" className="servicesText">Se Inspire nos nossos serviços</h2>
-
             <div className="ourServices">
+
+                <h2 id="services" className="servicesText">SERVIÇOS QUE INSPIRAM CUIDADO , BEM-ESTAR E EQUILÍBRIO</h2>
 
                 <div className="massageService">
                     <img className="pindasMassagePhoto" src={pindasMassage} alt="" />
-                    <h2 className="titleServices">Massagens</h2>
+                    <h2 className="titleServices">MASSAGENS</h2>
                     <h4 className="subtitleServices">Entre aromas e toques, nasce uma nova versão de você.</h4>
                     <a className="buttonServices" href={'/massagens'}>Saiba mais</a>
                 </div>
 
                 <div className="facialCareService">
                     <img className="skinCleaningPhoto" src={skinCleaning} alt="" />
-                    <h2 className="titleServices">Cuidados Faciais</h2>
+                    <h2 className="titleServices">CUIDADOS FACIAIS</h2>
                     <h4 className="subtitleServices">Sua cerimônia de rejuvenescimento começa aqui.</h4>
                     <button className="buttonServices">Saiba mais</button>
                 </div>
 
                 <div className="bodyCareService">
                     <img className="skinCleaningPhoto" src={bodyCare} alt="" />
-                    <h2 className="titleServices">Cuidados Corporais</h2>
+                    <h2 className="titleServices">CUIDADOS CORPORAIS</h2>
                     <h4 className="subtitleServices">Sua rotina sagrada de autocuidado começa aqui.</h4>
                     <button className="buttonServices">Saiba mais</button>
                 </div>
